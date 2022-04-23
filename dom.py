@@ -22,7 +22,7 @@ headers = {
 
 data = {
   "type":"Facebook",
-  "taikhoan":ua.random,+"@gmail.com",
+  "taikhoan":ua.random+"@gmail.com",
   "matkhau":"3838282iekks"
 }
 
