@@ -22,10 +22,10 @@ headers = {
 
 data = {
   "type":"Facebook",
-  "taikhoan":random.choice(ua.chrome),+"@gmail.",
+  "taikhoan":ua.random,+"@gmail.com",
   "matkhau":"3838282iekks"
 }
 
-for i in range(1000):
+while True:
   name = requests.post("https://rovskin-th.com/assets/ajax/tocchien.php",data=data, headers=headers)
-  print(name.text)
+  print("Auto Login Status :",name.status_code, name.reason)
